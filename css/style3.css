@@ -1,0 +1,286 @@
+.bg-al-0 {
+    width: 100%;
+    height: 100vh;
+}
+.bg-al-1 {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.size-al-0 {
+    width: 3.5rem;
+    height: 2.5rem;
+}
+.size-al-1 {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.size-al-2 {
+    width: 4rem;
+    height: 3rem;
+}
+.size-al-3 {
+    width: 12rem;
+    height: 9rem;
+}
+.size-al-4 {
+    width: 18rem;
+    height: 18rem;
+}
+
+
+.mt-1-al {
+    margin-top: 11rem;
+}
+.cursor-point-al {
+    cursor: pointer;
+}
+.justify-content-flexend {
+    justify-content: flex-end;
+}
+
+
+.logo-site-al {
+    position: absolute;
+    right: 10rem;
+    top: -1rem;
+}
+.pos-logosocio-al1 {
+    position: absolute;
+    top: 1.3rem;
+    left: 17rem;
+
+}
+.pos-logosocio-al2 {
+    position: absolute;
+    top: 1.3rem;
+    left: 22rem;
+} 
+
+/**** nav al header ****/
+
+#nav-al-1 {
+    display: inline-block;
+}
+.checkbox-al {
+    display: none;
+}    
+.menu-al {
+    display: none;
+}
+#nav-al-1 label {
+    cursor: pointer;
+    position: absolute;
+    left: 10.2rem;
+    z-index: 2000;
+    top: 1.4rem;
+}
+#input-check-al {
+    display: none;
+    cursor: pointer;
+}
+.nav-al {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style:none;
+    text-align: center;
+    margin-top: 7rem;
+}
+.checkbox-al:checked ~ #container-logo-al {
+    display: none;
+}
+.checkbox-al:checked ~ .menu-al {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 24rem;
+}
+.nav-al li{
+    width: 70%;
+    margin: 0 auto;
+}
+.nav-a-form-al {
+    width: 100%;
+    display: block;
+    padding: 30px 0;
+    cursor: pointer;
+}
+.color-white-al {
+    color: white;
+}
+.trait-al {
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    padding: 0;
+}
+.nav-al a:hover {
+    color: white;
+    text-decoration: none;
+}
+.d-none-al{
+    display: none;
+}
+
+/**** fin nav al header ****/
+
+
+/**** carousel header al ****/
+
+.position-fleche-droite-carousel-al {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 2rem;
+}
+.position-fleche-gauche-carousel-al {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.carousel-control-prev {
+    width: 5%;
+}
+.carousel-control-next {
+    width: 5%;
+}
+#carousel-header-al li {
+    background-color: rgb(184, 2, 2);
+    margin-right: 25px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+#carousel-header-al li.active {
+    background-color:#fff;
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .pos-logosocio-al1 {
+        position: absolute;
+        top: 1.3rem;
+        left: 17rem;
+    
+    }
+    .pos-logosocio-al2 {
+        position: absolute;
+        top: 1.3rem;
+        left: 22rem;
+    }
+    .logo-site-al {
+        position: absolute;
+        right: 3rem;
+        top: -1rem;
+    }
+    .size-al-4 {
+        width: 17rem;
+        height: 17rem;
+    }
+    .nav-al {
+        margin-top: 7rem;
+    }
+    .trait-al {
+        margin: 1.7rem auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #nav-al-1 label {
+        cursor: pointer;
+        position: absolute;
+        left: 45%;
+        z-index: 2000;
+        top: 1rem;
+    }
+    .checkbox-al:checked ~.menu-al {
+        display: block;
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        background-color: #000000;
+        opacity: 0.7;
+        width: 100%;
+    }
+    .pos-logosocio-al1 {
+        position: absolute;
+        top: 1.3rem;
+        left: 15%;
+    
+    }
+    .pos-logosocio-al2 {
+        position: absolute;
+        top: 1.3rem;
+        left: 25%;
+    }
+    .logo-site-al {
+        position: absolute;
+        right: 6%;
+        top: -9%;
+    }
+    .size-al-4 {
+        width: 17rem;
+        height: 19rem;
+    }
+    .size-al-3 {
+        width: 250px;
+        height: 175px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #nav-al-1 label {
+        cursor: pointer;
+        position: absolute;
+        left: 45%;
+        z-index: 2000;
+        top: 1rem;
+    }
+    .checkbox-al:checked ~.menu-al {
+        display: block;
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        background-color: #000000;
+        opacity: 0.7;
+        width: 100%;
+    }
+    .pos-logosocio-al1 {
+        position: absolute;
+        top: 1.3rem;
+        left: 12%;
+    
+    }
+    .pos-logosocio-al2 {
+        position: absolute;
+        top: 1.3rem;
+        left: 25%;
+    }
+    .logo-site-al {
+        position: absolute;
+        right: 6%;
+        top: -6%;
+    }
+    .size-al-4 {
+        width: 11rem;
+        height: 16rem;
+    }
+    .size-al-3 {
+        width: 250px;
+        height: 175px;
+    }
+}

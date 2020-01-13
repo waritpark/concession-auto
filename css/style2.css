@@ -1,0 +1,4 @@
+.gallerycontainer{position:relative;margin:0 auto;padding:0;background-color:#000;max-width:1170px}.gallery{position:relative;max-width:1170px;height:400px;overflow:hidden}.fullwidthgallery-container{position:relative;width:100% !important;padding:0;max-height:400px !important;overflow:hidden}.fullwidthgallery-container .fullwidthgallery{position:relative;width:100% !important;max-height:400px !important}
+.nav-inner{
+    overflow: hidden;
+}

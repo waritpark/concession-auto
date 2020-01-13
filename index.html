@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Concession Auto</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/preview.css" />
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/sliding-image-gallery.css" />
+    <link rel="stylesheet" type="text/css" href="css/caption.css" />
+
+    <script type="text/javascript" src="js/jquery.flashblue-plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.sliding-image-gallery.js"></script>
+    <script>
+        var api;
+        $(document).ready(function () {
+            api = $(".gallery").slidingImageGallery({
+                startWidth: 1170,
+                startHeight: 400,
+                hideCaptionAtResolution: 320,
+                transition: "random"
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="bg-al-0">
+        <div id="carousel-header-al" class="carousel slide bg-al-1" data-ride="carousel">
+            <ol class="carousel-indicators align-items-center">
+                <li data-target="#carousel-header-al" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-header-al" data-slide-to="1"></li>
+                <li data-target="#carousel-header-al" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block bg-al-1" src="images/voiture2.jpg" alt="photo-un" width="2364" height="1330">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block bg-al-1" src="images/f9fe704b.jpg" alt="photo-deux" width="1920" height="1080">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block bg-al-1" src="images/765605_1920_1080.jpg" alt="photo-trois" width="1920"
+                        height="1080">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-header-al" role="button" data-slide="prev">
+                <span class="position-fleche-gauche-carousel-al carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-header-al" role="button" data-slide="next">
+                <span class="position-fleche-droite-carousel-al carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div id="nav-al-1">
+            <input class="checkbox-al" type="checkbox" name="menuburger" id="input-check-al">
+            <label for="input-check-al"><img src="images/icone-burger-blanc.png" alt="logo-burger" width="200"
+                    height="200" class="size-al-0">
+            </label>
+            <div class="menu-al">
+                <ul class="nav-al">
+                    <li class="active-al"><a class="color-white-al nav-a-form-al" href="#section-presentation">section
+                            présentation</a></li>
+                    <span class="trait-al"></span>
+                    <li><a class="color-white-al nav-a-form-al" href="#section-service">section service</a></li>
+                    <span class="trait-al"></span>
+                    <li><a class="color-white-al nav-a-form-al" href="#contact-et-acces">Contact & accès</a></li>
+                    <span class="trait-al"></span>
+                </ul>
+                <div class="row w-100 d-flex mx-0 justify-content-around my-4 align-items-center">
+                    <img src="images/logo-fb-noir.png" class="size-al-1 cursor-point-al" alt="logo-facebook" width="512"
+                        height="512">
+                    <img src="images/mail_icon-icons.png" class="size-al-2 cursor-point-al" alt="logo-mail" width="512"
+                        height="512">
+                    <img src="images/logo-twitter-blanc.png" class="size-al-1 cursor-point-al" alt="logo-twitter"
+                        width="512" height="512">
+                </div>
+                <div class="row w-100 d-flex justify-content-center  mt-4 mb-4">
+                    <img src="images/5a452601546ddca7e1fcbc87.png" class="size-al-1" alt="logo-tel" width="512"
+                        height="512">
+                    <p class="m-0 pt-2 pl-3 color-white-al">03 84 41 41 41</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="images/menuburgerid2.3.png" class="size-al-3" alt="img-voiture" width="730" height="511">
+                </div>
+            </div>
+        </div>
+        <div class="container pos-al-test">
+            <div class="row">
+                <div id="container-logo-al">
+                    <img src="images/logo-fb-noir.png" class="size-al-1 cursor-point-al pos-logosocio-al1"
+                        alt="logo-facebook" width="512" height="512">
+                    <img src="images/logo-twitter-blanc.png" class="size-al-1 cursor-point-al pos-logosocio-al2"
+                        alt="logo-twitter" width="512" height="512">
+                </div>
+            </div>
+            <div class="logo-site-al">
+                <img src="images/logo-transparent.png" alt="logo-du-site" width="699" height="581" class="size-al-4">
+            </div>
+            <div class="row justify-content-center align-items-center" id="tel-header-al">
+                <img src="images/5a452601546ddca7e1fcbc87.png" class="size-al-1" alt="logo-tel" width="512"
+                    height="512">
+                <p class="ml-2 color-white-al">03 84 41 41 41</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let tt = document.getElementById('input-check-al');
+        let rt = document.getElementById('container-logo-al');
+        let tel = document.getElementById('tel-header-al');
+        tt.addEventListener('click', function () {
+            rt.classList.toggle('d-none-al');
+            tel.classList.toggle('d-none-al');
+        })
+    </script>
+
+
+    <div class="container-fluid bg-grp-auto p-0">
+
+        <div class="container padding">
+
+            <div class="row justify-content-center align-items-center">
+
+                <h2 class="text-white text-center text-nowrap mt-3"><span class="grp-auto-text">GROUPE AUTO
+                        MOTORS</span> depuis
+                    1993
+                </h2>
+
+            </div>
+
+
+
+            <div class="row justify-content-around mt-5 position-relative">
+
+                <div
+                    class="cartes item1 mb-3 mb-sm-3 mb-md-0 mb-lg-0 mb-xl-0 col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                        <h5 class="card-title grp-auto-text text-center">VEHICULES NEUFS</h5>
+                        <p class="card-text text-center">Notre groupe a déjà vendu plus de 7300 véhicules neufs depuis
+                            sa
+                            création.</p>
+                        <a href="#" class="btn btn-grp-color">En savoir plus</a>
+                    </div>
+                </div>
+
+                <div
+                    class="cartes item2 mb-3 mb-sm-3 mb-md-0 mb-lg-0 mb-xl-0 col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                        <h5 class="card-title grp-auto-text text-center text-nowrap">VEHICULES OCCASIONS</h5>
+                        <p class="card-text text-center">Notre groupe a déjà vendu plus de 5700 véhicules d'occasion
+                            depuis
+                            sa création.</p>
+                        <a href="#" class="btn btn-grp-color">En savoir plus</a>
+                    </div>
+                </div>
+
+                <div class="cartes item3 col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                    <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                        <h5 class="card-title grp-auto-text text-center text-nowrap">NOS PROFESSIONNELS</h5>
+                        <p class="card-text text-center">Notre groupe a à votre disposition une équipe de 25
+                            professionnels
+                            à votre service.</p>
+                        <a href="#" class="btn btn-grp-color">En savoir plus</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script>
+        let item3 = document.querySelector(".item3");
+        let item2 = document.querySelector(".item2");
+        let item1 = document.querySelector(".item1");
+
+
+        item3.addEventListener('mouseenter', function () {
+
+            item2.style.opacity = 0.4;
+            item3.style.animation = "none";
+        })
+        item3.addEventListener('mouseleave', function () {
+
+            item2.style.opacity = 1;
+        })
+        document.addEventListener('DOMContentLoaded', function () {
+
+            item1.classList.toggle('anim-item1');
+            item3.classList.toggle('anim-item1');
+        })
+        item1.addEventListener('mouseenter', function () {
+
+            item2.style.opacity = 0.4;
+            item1.style.animation = "none";
+        })
+        item1.addEventListener('mouseleave', function () {
+
+            item2.style.opacity = 1;
+        })
+    </script>
+
+    <div class="container-fluid bg-slider-auto">
+
+        <div class="container p-0">
+            <div class="space30"></div>
+
+            <!--
+    ################################################
+        - jQuery Sliding Image Gallery / Start -
+    ################################################
+    -->
+            <div class="gallerycontainer">
+                <div class="gallery">
+                    <ul>
+                        <!-- Slide 1 -->
+                        <li data-delay="8000" data-link="http://www.codegrape.com/user/flashblue" data-target="_blank">
+                            <img src="images/dummy.png" alt="img-encarton" data-lazyload="images/slide/1.png" />
+                            <div class="nav-btn">
+                                <h5>Accueil & Conseils</h5>
+                                <span>Pour vous servir</span>
+                            </div>
+                            <div class="caption sft" data-x="60" data-y="258" data-speed="500" data-start="300"
+                                data-easing="easeOutExpo">
+                                <img src="images/caption/logo-icon.png" alt="img-encarton" />
+                            </div>
+                            <div class="caption big_fat_white customin" data-x="96" data-y="250" data-speed="500"
+                                data-start="600" data-easing="easeOutExpo">
+                                VEHICULES
+                            </div>
+                            <div class="caption big_light_white customin" data-x="350" data-y="250" data-speed="500"
+                                data-start="900" data-easing="easeOutExpo">
+                                NEUFS OCCASIONS
+                            </div>
+
+                            <div class="caption big_red skewfromleft customout" data-x="60" data-y="298"
+                                data-speed="800" data-start="1500" data-easing="easeOutBack">
+                                REPARATIONS, ENTRETIEN, CARROSSERIE
+                            </div>
+                        </li>
+
+
+
+
+                        <!-- Slide 2 -->
+                        <li data-delay="6000" data-link="http://www.codegrape.com/" data-target="_blank">
+                            <img src="images/slide/2.png" alt="img-encarton" />
+                            <div class="nav-btn">
+                                <h5>ESSAI</h5>
+                                <span>Venez essayer nos véhicules</span>
+                            </div>
+
+
+                            <div class="caption sft" data-x="60" data-y="258" data-speed="500" data-start="300"
+                                data-easing="easeOutExpo">
+                                <img src="images/caption/logo-icon.png" alt="img-encarton" />
+                            </div>
+                            <div class="caption big_fat_white customin" data-x="96" data-y="250" data-speed="500"
+                                data-start="600" data-easing="easeOutExpo">
+                                RESERVATION
+                            </div>
+
+                            <div class="caption big_red skewfromleft customout" data-x="60" data-y="298"
+                                data-speed="800" data-start="1500" data-easing="easeOutBack">
+                                SUR NOTRE SITE INTERNET, PAR TELEPHONE
+                            </div>
+                        </li>
+
+                        <!-- Slide 3 -->
+                        <li data-delay="10000" data-link="http://www.codegrape.com/category/all" data-target="_blank">
+                            <img src="images/dummy.png" alt="img-encarton" data-lazyload="images/slide/3.png" />
+                            <div class="nav-btn">
+                                <h5>Financement</h5>
+                                <span>Possibilitées de financement</span>
+                            </div>
+                            <div class="caption lfr stl" data-x="right" data-hoffset="-13" data-y="center"
+                                data-voffset="73" data-speed="1200" data-start="500" data-easing="easeOutSine"
+                                data-end="3300" data-endspeed="800" data-endeasing="easeOutSine">
+                                <img src="images/caption/merco.png" alt="img-encarton" />
+                            </div>
+                            <div class="caption big_navy sfl str" data-x="180" data-y="108" data-speed="2000"
+                                data-start="700" data-easing="easeOutExpo" data-end="4000" data-endspeed="1000">
+                                Crédit classique
+                            </div>
+                            <div class="caption big_red sfr stl" data-x="280" data-y="150" data-speed="2000"
+                                data-start="800" data-easing="easeOutExpo" data-end="4000" data-endspeed="1000">
+                                Location avec ou sans apport</div>
+                        </li>
+
+                        <!-- Slide 4 -->
+                        <li>
+                            <img src="images/dummy.png" alt="img-encarton" data-lazyload="images/slide/4.jpg" />
+                            <div class="nav-btn">
+                                <h5>Assurance</h5>
+                                <span>Assurance automobile</span>
+                            </div>
+                            <div class="caption sft" data-x="60" data-y="258" data-speed="500" data-start="300"
+                                data-easing="easeOutExpo">
+                                <img src="images/caption/logo-icon.png" alt="img-encarton" />
+                            </div>
+                            <div class="caption big_fat_white customin" data-x="96" data-y="250" data-speed="500"
+                                data-start="600" data-easing="easeOutExpo">
+                                ASSURANCE
+                            </div>
+
+                            <div class="caption big_red skewfromleft customout" data-x="60" data-y="298"
+                                data-speed="800" data-start="1500" data-easing="easeOutBack">
+                                ETABLIR AVEC VOUS UN DEVIS GRATUIT !
+                            </div>
+                        </li>
+
+                        <!-- Slide 5 -->
+                        <li data-link="http://www.codegrape.com/category/javascript" data-target="_blank">
+                            <img src="images/slide/5.jpg" alt="img-encarton">
+                            <div class="nav-btn">
+                                <h5>Entretien</h5>
+                                <span>Entretien de votre véhicule</span>
+                            </div>
+                            <div class="caption sft" data-x="60" data-y="258" data-speed="500" data-start="300"
+                                data-easing="easeOutExpo">
+                                <img src="images/caption/logo-icon.png" alt="img-encarton" />
+                            </div>
+                            <div class="caption big_fat_white customin" data-x="96" data-y="250" data-speed="500"
+                                data-start="600" data-easing="easeOutExpo">
+                                ENTRETIEN
+                            </div>
+
+                            <div class="caption big_red skewfromleft customout" data-x="60" data-y="298"
+                                data-speed="800" data-start="1500" data-easing="easeOutBack">
+                                ENTRETIEN ET REPARATION DES VEHICULES
+                            </div>
+                        </li>
+
+                        <!-- Slide 6 -->
+                        <li data-link="http://www.codegrape.com/browse/popular-files" data-target="_blank">
+                            <img src="images/dummy.png" alt="img-encarton" data-lazyload="images/slide/6.jpg" />
+                            <div class="nav-btn">
+                                <h5>Prêt</h5>
+                                <span>Prêt de véhicules</span>
+                            </div>
+                            <div class="caption bottom_black fade" data-speed="600">
+                                <div class="inner">
+                                    <h3>Prêt de véhicules</h3>
+                                    <p>Nous garantissons votre mobilité, pendant la durée des réparations, nous vous
+                                        proposons un véhicule de prêt gratuitement.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--
+    ##############################################
+        - jQuery Sliding Image Gallery / End -
+    ##############################################
+    -->
+
+            <div class="space40"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-contact text-white border-dark-top-5">
+
+        <div class="container second-bg-contact p-0">
+
+            <div class="row p-0">
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 d-flex flex-column justify-content-center">
+
+                    <div class=" adress d-flex flex-column justify-content-center align-items-center mb-5">
+
+                        <div class="element-adress text-center">
+                            <h3>Auto Motors</h3>
+                            <h3>15 rue de Besançon</h3>
+                            <h3>70000 VESOUL</h3>
+                            <h3>Téléphone : 03.85.41.41.41</h3>
+                        </div>
+                    </div>
+
+                    <div class="adress1 horaires d-flex justify-content-center align-items-center mr-5">
+
+                        <div class="horloge">
+
+                            <img id="horloge" src="images/horloge.png" alt="horloge">
+
+                        </div>
+
+                        <div class="ouverture d-flex flex-column justify-content-center align-items-center ml-3">
+
+                            <h3>Horaires :</h3>
+                            <h3>Ouvert 6j/7 (dimanche fermé)</h3>
+                            <h3>De 9h à 19h sauf le</h3>
+                            <h3>Mercredi de 6h à 19h</h3>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.341638126489!2d6.152370515509399!3d47.63892757918679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4792f2ec007513e1%3A0x46a4ae3017a8a2ab!2sConcession%20CITRO%C3%8BN%20Vesoul!5e0!3m2!1sfr!2sfr!4v1578476934000!5m2!1sfr!2sfr"
+                        class="w-100 h-100" allowfullscreen=""></iframe>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid bg-footer text-white pt-4 pb-4">
+        <div class="container p-0">
+            <div class="row p-0 justify-content-between align-items-center" id="content-footer">
+
+                <div class="d-flex justify-content-center align-items-center" id="container-img-socio">
+                    <img src="images/fb.png" width="30" height="30" alt="fb" id="fb-footer" class="mr-4">
+                    <img src="images/twitter.png" width="30" height="30" alt="twitter">
+                </div>
+                <h3>Adresse mail : automobile@gmail.com</h3>
+                <h3 class="d-none d-sm-none d-md-none d-lg-block d-xl-block">Created by : Protocode</h3>
+                <h3 class="d-none d-sm-none d-md-none d-lg-block d-xl-block">Mentions légales &#9400; 2020</h3>
+                <span class="d-flex d-sm-flex d-md-flex d-md-flex d-lg-none d-xl-none " id="container-mentions-footer">
+                    <h3 class="mr-3">Created by : Protocode</h3>
+                    <h3>Mentions légales &#9400; 2020</h3>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
